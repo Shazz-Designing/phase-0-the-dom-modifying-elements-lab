@@ -5,8 +5,9 @@ document.querySelector('main#main').remove();
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory';
 
-// Set the inner HTML of the 'newHeader' element
-newHeader.innerHTML = "YOUR-NAME is the champion";
+// Set the text content of the 'newHeader' element
+newHeader.textContent = "YOUR-NAME is the champion";
 
 // Append 'newHeader' to the body
 document.body.appendChild(newHeader);
+
